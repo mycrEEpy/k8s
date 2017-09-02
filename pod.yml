@@ -7,7 +7,7 @@ metadata:
     version: v1
 spec:
   containers:
-  - image:  nigelpoulton/pluralsight-docker-ci:latest
-    name:  hello-ctr
-    ports:
-    - containerPort: 8080
+    - image:  nigelpoulton/pluralsight-docker-ci:latest
+      name:  hello-ctr
+      ports:
+        - containerPort: 8080

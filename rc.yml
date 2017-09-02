@@ -14,7 +14,7 @@ spec:
         version: v1
     spec:
       containers:
-      - image:  nigelpoulton/pluralsight-docker-ci:latest
-        name:  hello-pod
-        ports:
-        - containerPort: 8080
+        - image:  nigelpoulton/pluralsight-docker-ci:latest
+          name:  hello-pod
+          ports:
+            - containerPort: 8080
